@@ -130,7 +130,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/deals_dump")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -255,7 +255,7 @@ async def main(bot, message):
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("Open Link", url=share_link)],
-                     [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates"),
+                     [InlineKeyboardButton("Bots Channel", url="https://t.me/deals_dump"),
                       InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]
                 ),
                 disable_web_page_preview=True
@@ -512,7 +512,7 @@ async def button(bot, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/deals_dump")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -564,7 +564,7 @@ async def button(bot, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/deals_dump")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
